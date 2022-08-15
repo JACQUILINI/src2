@@ -1,6 +1,6 @@
-import os
-from dotenv import load_dotenv
-load_dotenv()
+# import os
+# from dotenv import load_dotenv
+# load_dotenv()
 """
 Django settings for CompareX project.
 
@@ -232,7 +232,7 @@ STATIC_URL = 'CompareX/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'CompareX')
 ]
-STATIC_ROOT = os.path.join(BASE_DIR,'MEDIA')
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfile')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
